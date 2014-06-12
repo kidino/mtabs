@@ -1,0 +1,25 @@
+body { overflow: hidden; }
+#tabs-menu {
+    display: block; overflow: hidden;
+    background-color: #f0f0f0;
+}
+
+#tabs-menu li {
+    float: left;
+    padding: 10px;
+    background-color: #f0f0f0;
+    color: #444;
+    cursor: pointer;
+}
+
+#tabs-menu li.active {
+    border-bottom: 3px solid #444;
+}
+
+#content-area { background-color: #ccc; }
+
+#content-area .panel { overflow: hidden; float: left; }
+
+#scroller { position:absolute; }
+
+ .panel-in { padding: 15px; }
