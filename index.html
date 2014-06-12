@@ -166,6 +166,9 @@
         $('#tabs-menu li').on('click', function(){
             $(this).siblings().removeClass('active');
             $(this).addClass('active');
+            
+            horzscroll.goToPage($(this).index(), 0, 400);
+            
         });
             
         scrollpanel1 = new IScroll('#scrollpanel1',{ mouseWheel: true });
