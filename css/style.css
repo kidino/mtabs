@@ -16,7 +16,7 @@ body { overflow: hidden; }
     border-bottom: 3px solid #444;
 }
 
-#content-area { background-color: #ccc; }
+#content-area { background-color: #ccc; overflow: hidden; position: fixed;}
 
 #content-area .panel { overflow: hidden; float: left; }
 
